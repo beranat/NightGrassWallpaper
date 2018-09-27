@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Живые обои - трава ночью</string>
+    <string name="app_desc">Живые обои со стеблями травы, колышущиеся на фоне ночного лунного неба.</string>
+
+    <string name="name">Трава ночью</string>
+    <string name="settings">Настройки</string>
+    <string name="author">madRat (Трава ночью), chertykov (Трава-ICS) and Google (Оригинальные обои &quot;Трава&quot;)</string>
+    <string name="desc">Стебли травы, колышущиеся на фоне ночного неба.</string>
+    <string name="no_animation">Без анимации</string>
+    <string name="generate">Предпросмотр в полноэкранном режиме</string>
+    <string name="about_html">
+<![CDATA[<center><b>Живые обои - трава ночью</b> анимированные стебли травы, колышущиеся на фоне ночного лунного неба.</center><br/>
+Copyright &amp;#169; 2015 madRat<br/><br/>
+Это программа является свободным программным обеспечением. Вы можете распространять и/или модифицировать её согласно условиям Стандартной Общественной Лицензии GNU, опубликованной Фондом Свободного Программного Обеспечения, версии 3 или, по Вашему желанию, любой более поздней версии.<br/><br/>
+Эта программа распространяется в надежде, что она будет полезной, но <b>БЕЗ ВСЯКИХ ГАРАНТИЙ</b>, в том числе подразумеваемых гарантий <b>ТОВАРНОГО СОСТОЯНИЯ ПРИ ПРОДАЖЕ и ГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОГО ПРИМЕНЕНИЯ</b>. Смотрите Стандартную Общественную Лицензию GNU для получения дополнительной информации. Вы должны были получить копию Стандартной Общественной Лицензии GNU вместе с программой. В случае её отсутствия, посмотрите  <a href=http://www.gnu.org/licenses/>http://www.gnu.org/licenses</a>.<br/><br/>
+В программе использованы части программ распространяемых под Apache License 2.0 лицензией<br/>
+Denis Chertykov\'s Grass-ICS <a href="http://github.com/chertykov/Grass-ICS">http://github.com/chertykov/Grass-ICS</a><br/>
+Google\'s Оригинальные обои Android Живые обои - "Трава"]]>
+    </string>
+    <string name="infinitely">Бесконечно</string>
+
+    <plurals name="fps">
+        <item quantity="zero">@string/no_animation</item>
+        <item quantity="one">%d кадр в секунду</item>
+        <item quantity="few">%d кадра в секунду</item>
+        <item quantity="many">%d кадров в секунду</item>
+        <item quantity="other">%d кадров в секунду</item>
+    </plurals>
+    <plurals name="time">
+        <item quantity="zero">@string/infinitely</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+
+    <string name="grass_animation_fps">Анимация травы</string>
+    <string name="grass_animation_time">Длительность анимации</string>
+    <string name="title_activity_night_grass">NightGrass Activity</string>
+</resources>
+

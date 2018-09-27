@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.madrat.wallpapers.nightgrass"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="15"/>
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_desc"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <service
+            android:name=".GrassWallpaper"
+            android:label="@string/name"
+            android:permission="android.permission.BIND_WALLPAPER" >
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/nightgrass" />
+        </service>
+
+        <activity
+            android:name=".Settings"
+            android:label="@string/settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.PREFERENCE" />
+<!-- 			<category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".NightGrassActivity"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen"
+            android:label="@string/title_activity_night_grass" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.TEST" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

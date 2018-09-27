@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="@string/name"
+    android:author="@string/author"
+    android:description="@string/desc"
+	android:settingsActivity="org.madrat.wallpapers.nightgrass.Settings"
+    android:thumbnail="@drawable/thumb" />
+
